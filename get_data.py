@@ -1,7 +1,8 @@
-import talib
-import requests
-import numpy as np
 from datetime import datetime
+
+import numpy as np
+import requests
+import talib
 
 """DATA STRUCTURE FROM BINANCE 
 [
@@ -21,12 +22,12 @@ from datetime import datetime
   ]
 ]
 """
-def get_current_price(symbol="OMGUSDT") -> str:
+def get_current_price(symbol="BTCUSDT") -> str:
   """Gets the current ticking price from the futures market for given symbol
   Parameters
   ----------
   symbol : optional
-    The futures exchange symbol defaults to OMGUSDT
+    The futures exchange symbol defaults to BTCUSDT
   """
 
   try:
@@ -34,14 +35,14 @@ def get_current_price(symbol="OMGUSDT") -> str:
   except Exception:
     return "NO INTERNET CONNECTION"
 
-def get_data(minutes_interval, symbol="OMGUSDT") -> tuple:
+def get_data(minutes_interval, symbol="BTCUSDT") -> tuple:
   """Gets binance futures data for given symbol and calculates and returns MACD, CCI, MONEY_FLOW, RSI, STOCH SLOW D, BOLL BANDS
   Parameters
   ----------
   interval : str, required
     The kandle lines interval
   symbol : optional
-    The futures exchange symbol defaults to OMGUSDT
+    The futures exchange symbol defaults to BTCUSDT
   
   Returns
   ----------
