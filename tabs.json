@@ -1,0 +1,62 @@
+[
+    {
+        "interval": "1m",
+        "lbl_title": "{} 1 Min Chart Analysis",
+        "tab_title": "1 Minute",
+        "thread_sleep_time": 30
+    },
+    {
+        "interval": "5m",
+        "lbl_title": "{} 5 Min Chart Analysis",
+        "tab_title": "5 Minutes",
+        "thread_sleep_time": 30
+    },
+    {
+        "interval": "15m",
+        "lbl_title": "{} 15 Min Chart Analysis",
+        "tab_title": "15 Minutes",
+        "thread_sleep_time": 30
+    },
+    {
+        "interval": "30m",
+        "lbl_title": "{} 30 Min Chart Analysis",
+        "tab_title": "30 Minutes",
+        "thread_sleep_time": 30
+    },
+    {
+        "interval": "1h",
+        "lbl_title": "{} 1 Hour Chart Analysis",
+        "tab_title": "1 Hour",
+        "thread_sleep_time": 30
+    },
+    {
+        "interval": "2h",
+        "lbl_title": "{} 2 Hours Chart Analysis",
+        "tab_title": "2 Hours",
+        "thread_sleep_time": 600
+    },
+    {
+        "interval": "4h",
+        "lbl_title": "{} 4 Hours Chart Analysis",
+        "tab_title": "4 Hours",
+        "thread_sleep_time": 1200
+    },
+    {
+        "interval": "6h",
+        "lbl_title": "{} 6 Hours Chart Analysis",
+        "tab_title": "6 Hours",
+        "thread_sleep_time": 1800
+    },
+    {
+        "interval": "12h",
+        "lbl_title": "{} 12 Hours Chart Analysis",
+        "tab_title": "12 Hours",
+        "thread_sleep_time": 3600
+    },
+    {
+        "interval": "1d",
+        "lbl_title": "{} 1 Day Chart Analysis",
+        "tab_title": "1 Day",
+        "thread_sleep_time": 3600
+    }
+]
